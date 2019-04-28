@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-cloud-eureka" />
+        <module name="spring-cloud-gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="credit-eureka" target="1.8" />
       <module name="spring-cloud-eureka" target="1.8" />
+      <module name="spring-cloud-gateway" target="1.8" />
       <module name="springCloud-eureka" target="1.8" />
       <module name="SpringCloud_Learning" target="1.8" />
     </bytecodeTargetLevel>
