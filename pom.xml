@@ -11,8 +11,7 @@
     <modules>
         <module>spring-cloud-eureka</module>
         <module>spring-cloud-gateway</module>
-        <module>spring-cloud-service</module>
-        <module>springcloudconfigtmp</module>
+        <module>spring-cloud-config</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

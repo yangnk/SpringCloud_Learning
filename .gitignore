@@ -3,3 +3,5 @@
 .idea/libraries/
 .idea/workspace.xml
 spring-cloud-eureka/target/
+/.idea/
+!/SpringCloud_Learning.iml

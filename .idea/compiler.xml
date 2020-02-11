@@ -7,21 +7,23 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="service" />
+        <module name="spring-boot-service" />
         <module name="spring-cloud-config" />
         <module name="spring-cloud-eureka" />
         <module name="spring-cloud-gateway" />
         <module name="spring-cloud-service" />
-        <module name="springcloudconfigtmp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="credit-eureka" target="1.8" />
       <module name="service" target="1.8" />
+      <module name="spring-boot-service" target="1.8" />
       <module name="spring-cloud-config" target="1.8" />
       <module name="spring-cloud-eureka" target="1.8" />
       <module name="spring-cloud-gateway" target="1.8" />
       <module name="spring-cloud-service" target="1.8" />
       <module name="springCloud-eureka" target="1.8" />
+      <module name="springcloud-eureka-client-provider-ex" target="1.8" />
       <module name="SpringCloud_Learning" target="1.8" />
       <module name="springcloudconfigtmp" target="1.8" />
     </bytecodeTargetLevel>
