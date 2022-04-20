@@ -1,5 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="MavenCompilerTasksManager">
+    <option name="beforeCompileTasks">
+      <set>
+        <MavenCompilerTask>
+          <option name="goal" value="clean" />
+          <option name="projectPath" value="$PROJECT_DIR$/spring-cloud-service-consumer/pom.xml" />
+        </MavenCompilerTask>
+        <MavenCompilerTask>
+          <option name="goal" value="compile" />
+          <option name="projectPath" value="$PROJECT_DIR$/spring-cloud-service-consumer/pom.xml" />
+        </MavenCompilerTask>
+        <MavenCompilerTask>
+          <option name="goal" value="clean" />
+          <option name="projectPath" value="$PROJECT_DIR$/spring-cloud-service-feign/pom.xml" />
+        </MavenCompilerTask>
+        <MavenCompilerTask>
+          <option name="goal" value="compile" />
+          <option name="projectPath" value="$PROJECT_DIR$/spring-cloud-service-feign/pom.xml" />
+        </MavenCompilerTask>
+      </set>
+    </option>
+    <option name="beforeRebuildTask">
+      <set>
+        <MavenCompilerTask>
+          <option name="goal" value="clean" />
+          <option name="projectPath" value="$PROJECT_DIR$/spring-cloud-service-consumer/pom.xml" />
+        </MavenCompilerTask>
+        <MavenCompilerTask>
+          <option name="goal" value="compile" />
+          <option name="projectPath" value="$PROJECT_DIR$/spring-cloud-service-consumer/pom.xml" />
+        </MavenCompilerTask>
+        <MavenCompilerTask>
+          <option name="goal" value="clean" />
+          <option name="projectPath" value="$PROJECT_DIR$/spring-cloud-service-feign/pom.xml" />
+        </MavenCompilerTask>
+        <MavenCompilerTask>
+          <option name="goal" value="compile" />
+          <option name="projectPath" value="$PROJECT_DIR$/spring-cloud-service-feign/pom.xml" />
+        </MavenCompilerTask>
+      </set>
+    </option>
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -9,11 +51,16 @@
         <option value="$PROJECT_DIR$/service/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-service/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-config/pom.xml" />
+        <option value="$PROJECT_DIR$/myservice/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloudservice/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-service-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-service-producer/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/credit-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-serviceProvider/pom.xml" />
         <option value="$PROJECT_DIR$/springCloud-eureka/pom.xml" />
       </set>
     </option>

@@ -4,4 +4,11 @@
 .idea/workspace.xml
 spring-cloud-eureka/target/
 /.idea/
-!/SpringCloud_Learning.iml
+/README-MY.md
+/.gitignore
+/README-MY.doc
+/spring-cloud-eureka/spring-cloud-eureka.iml
+README-MY.doc
+/spring-cloud-service-producer.iml
+spring-cloud-service-producer.iml
+/.idea/compiler.xml

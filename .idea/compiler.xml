@@ -6,26 +6,43 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="myservice" />
         <module name="service" />
         <module name="spring-boot-service" />
         <module name="spring-cloud-config" />
         <module name="spring-cloud-eureka" />
         <module name="spring-cloud-gateway" />
+        <module name="spring-cloud-myService" />
         <module name="spring-cloud-service" />
+        <module name="spring-cloud-service (1)" />
+        <module name="spring-cloud-service-consumer" />
+        <module name="spring-cloud-service-feign" />
+        <module name="spring-cloud-service-producer" />
+        <module name="springcloudservice" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="credit-eureka" target="1.8" />
+      <module name="myservice" target="1.8" />
       <module name="service" target="1.8" />
       <module name="spring-boot-service" target="1.8" />
       <module name="spring-cloud-config" target="1.8" />
       <module name="spring-cloud-eureka" target="1.8" />
       <module name="spring-cloud-gateway" target="1.8" />
+      <module name="spring-cloud-myService" target="1.8" />
+      <module name="spring-cloud-producer-2" target="1.6" />
       <module name="spring-cloud-service" target="1.8" />
+      <module name="spring-cloud-service (1)" target="1.8" />
+      <module name="spring-cloud-service-consumer" target="1.8" />
+      <module name="spring-cloud-service-feign" target="1.8" />
+      <module name="spring-cloud-service-producer" target="1.8" />
+      <module name="spring-cloud-serviceProvider" target="1.8" />
       <module name="springCloud-eureka" target="1.8" />
       <module name="springcloud-eureka-client-provider-ex" target="1.8" />
+      <module name="SpringCloud-Learning" target="1.5" />
       <module name="SpringCloud_Learning" target="1.8" />
       <module name="springcloudconfigtmp" target="1.8" />
+      <module name="springcloudservice" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
