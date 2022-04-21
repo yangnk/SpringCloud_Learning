@@ -10,5 +10,5 @@ spring-cloud-eureka/target/
 /spring-cloud-eureka/spring-cloud-eureka.iml
 README-MY.doc
 /spring-cloud-service-producer.iml
-spring-cloud-service-producer.iml
+spring-cloud-service-producer/spring-cloud-service-producer.iml
 /.idea/compiler.xml

@@ -18,6 +18,7 @@
         <module name="spring-cloud-service-consumer" />
         <module name="spring-cloud-service-feign" />
         <module name="spring-cloud-service-producer" />
+        <module name="spring-cloud-zuul" />
         <module name="springcloudservice" />
       </profile>
     </annotationProcessing>
@@ -37,6 +38,7 @@
       <module name="spring-cloud-service-feign" target="1.8" />
       <module name="spring-cloud-service-producer" target="1.8" />
       <module name="spring-cloud-serviceProvider" target="1.8" />
+      <module name="spring-cloud-zuul" target="1.8" />
       <module name="springCloud-eureka" target="1.8" />
       <module name="springcloud-eureka-client-provider-ex" target="1.8" />
       <module name="SpringCloud-Learning" target="1.5" />

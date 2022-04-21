@@ -10,7 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>spring-cloud-eureka</module>
-        <module>spring-cloud-gateway</module>
+        <module>spring-cloud-zuul</module>
         <module>spring-cloud-config</module>
         <module>spring-cloud-service-producer</module>
         <module>spring-cloud-service-consumer</module>

@@ -4,8 +4,8 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-eureka" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-cloud-gateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-service-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-service-producer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-zuul" charset="UTF-8" />
   </component>
 </project>

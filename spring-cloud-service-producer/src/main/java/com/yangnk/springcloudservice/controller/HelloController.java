@@ -29,7 +29,6 @@ public class HelloController {
 
     @RequestMapping(value = "/hello1", method = RequestMethod.GET)
     public String hello1() {
-//        String services = "Services: " + discoveryClient.getServices();
         System.out.println("====================");
         System.out.println("hello1");
         System.out.println("====================");
@@ -38,10 +37,18 @@ public class HelloController {
 
     @RequestMapping(value = "/hello2", method = RequestMethod.GET)
     public String hello2() {
-//        String services = "Services: " + discoveryClient.getServices();
         System.out.println("====================");
         System.out.println("hello2");
         System.out.println("====================");
         return "hello2";
+    }
+
+    @RequestMapping(value = "/hello3", method = RequestMethod.GET)
+    public String hello3() throws InterruptedException {
+        Thread.sleep(100000);
+        System.out.println("====================");
+        System.out.println("hello3");
+        System.out.println("====================");
+        return "hello3";
     }
 }
