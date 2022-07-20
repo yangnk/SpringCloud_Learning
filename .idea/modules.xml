@@ -5,7 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/SpringCloud-Learning.iml" filepath="$PROJECT_DIR$/SpringCloud-Learning.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-config/spring-cloud-config.iml" filepath="$PROJECT_DIR$/spring-cloud-config/spring-cloud-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-cloud-service-feign.iml" filepath="$PROJECT_DIR$/spring-cloud-service-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-service-consumer.iml" filepath="$PROJECT_DIR$/spring-cloud-service-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-service-producer.iml" filepath="$PROJECT_DIR$/spring-cloud-service-producer.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-zuul/spring-cloud-zuul.iml" filepath="$PROJECT_DIR$/spring-cloud-zuul/spring-cloud-zuul.iml" />
     </modules>

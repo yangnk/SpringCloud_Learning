@@ -30,12 +30,8 @@ public class HystrixController {
     }
 
     //服务熔断
-    @HystrixCommand(fallbackMethod = "fallback", commandProperties = {
-            @HystrixProperty(name = "circuitBreaker.enabled", value = "true"),
-            @HystrixProperty(name = "circuitBreaker.requestVolumeThreshold", value = "10"),
-            @HystrixProperty(name = "circuitBreaker.sleepWindowInMilliseconds", value = "10000"),
-            @HystrixProperty(name = "circuitBreaker.errorThresholdPercentage", value = "60"),
-    }) //开启，10次，10s， 60%
+    @HystrixCommand(fallbackMethod = "fallback", commandProperties = {@HystrixProperty(name = "circuitBreaker.enabled", value = "true"), @HystrixProperty(name = "circuitBreaker.requestVolumeThreshold", value = "10"), @HystrixProperty(name = "circuitBreaker.sleepWindowInMilliseconds", value = "10000"), @HystrixProperty(name = "circuitBreaker.errorThresholdPercentage", value = "60"),})
+    //开启，10次，10s， 60%
     @GetMapping("/hello4")
     public String hello4() {
         return restTemplate.getForObject("http://spring-cloud-service-producer/hello4", String.class);
