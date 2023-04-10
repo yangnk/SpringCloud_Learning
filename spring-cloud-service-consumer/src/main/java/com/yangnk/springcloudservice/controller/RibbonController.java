@@ -16,14 +16,13 @@ import org.springframework.web.client.RestTemplate;
  **/
 @RestController
 public class RibbonController {
-    @Autowired
-    LoadBalancerClient loadBalancerClient;
+
     @Autowired
     RestTemplate restTemplate;
 
-    @GetMapping("/hello2")
+    @GetMapping("/hello1")
     public String hello2() {
 
-        return restTemplate.getForObject("http://spring-cloud-service-producer/hello2", String.class);
+        return restTemplate.getForObject("http://spring-cloud-service-producer/hello1", String.class);
     }
 }

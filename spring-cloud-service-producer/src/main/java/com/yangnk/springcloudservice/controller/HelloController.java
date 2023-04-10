@@ -18,6 +18,10 @@ public class HelloController {
     @Autowired
     DiscoveryClient discoveryClient;
 
+    /**
+     * 自己服务测试的接口
+     * @return
+     */
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
     public String hello() {
 //        String services = "Services: " + discoveryClient.getServices();
@@ -27,6 +31,10 @@ public class HelloController {
         return "hello";
     }
 
+    /**
+     * ribbon 服务调用测试
+     * @return
+     */
     @RequestMapping(value = "/hello1", method = RequestMethod.GET)
     public String hello1() {
         System.out.println("====================");
@@ -35,6 +43,10 @@ public class HelloController {
         return "hello1";
     }
 
+    /**
+     * feign 服务调用测试
+     * @return
+     */
     @RequestMapping(value = "/hello2", method = RequestMethod.GET)
     public String hello2() {
         System.out.println("====================");
@@ -43,6 +55,11 @@ public class HelloController {
         return "hello2";
     }
 
+    /**
+     * hystrix 服务降级测试
+     * @return
+     * @throws InterruptedException
+     */
     @RequestMapping(value = "/hello3", method = RequestMethod.GET)
     public String hello3() throws InterruptedException {
         Thread.sleep(100000);

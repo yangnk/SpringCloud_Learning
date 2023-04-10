@@ -35,9 +35,9 @@ public class FeignController {
         return services;
     }
 
-    @GetMapping("/hello1")
+    @GetMapping("/hello2")
     public String helloa() {
-        String hello = helloService.hello1();
+        String hello = helloService.hello2();
         System.out.println(hello);
         return hello;
     }

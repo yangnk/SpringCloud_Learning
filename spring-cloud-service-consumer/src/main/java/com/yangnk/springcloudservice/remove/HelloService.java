@@ -14,6 +14,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @FeignClient(url = "127.0.0.1:8083", name = "spring-cloud-service-producer")
 public interface HelloService {
 
-    @RequestMapping(value = "/hello1", method = RequestMethod.GET)
-    String hello1();
+    @RequestMapping(value = "/hello2", method = RequestMethod.GET)
+    String hello2();
 }
