@@ -22,7 +22,6 @@ public class RibbonController {
 
     @GetMapping("/hello1")
     public String hello2() {
-
         return restTemplate.getForObject("http://spring-cloud-service-producer/hello1", String.class);
     }
 }
